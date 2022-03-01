@@ -48,26 +48,26 @@ using System;
 /// </summary>
 namespace CarPricer
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Car car1 = new Car { Make = "Ford", PurchaseValue= 35000m, AgeInMonths= 3 * 12, NumberOfCollisions=1, NumberOfMiles=50000, NumberOfPreviousOwners =1};
-            Car car2 = new Car { Make = "Toyota", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 1, NumberOfMiles=150000, NumberOfPreviousOwners =1};
-            Car car3 = new Car { Make = "Tesla", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 1, NumberOfMiles=250000, NumberOfPreviousOwners =1};
-            Car car4 = new Car { Make = "toyota", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 0, NumberOfMiles=250000, NumberOfPreviousOwners =1};
-            Car car5 = new Car { Make = "Acura", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 1, NumberOfMiles=250000, NumberOfPreviousOwners =0};
-            Car car6 = new Car { Make = null, PurchaseValue= 80000m, AgeInMonths=8, NumberOfCollisions = 1, NumberOfMiles = 10000, NumberOfPreviousOwners =0};
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Car car1 = new Car { Make = "Ford", PurchaseValue= 35000m, AgeInMonths= 3 * 12, NumberOfCollisions=1, NumberOfMiles=50000, NumberOfPreviousOwners =1};
+    //        Car car2 = new Car { Make = "Toyota", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 1, NumberOfMiles=150000, NumberOfPreviousOwners =1};
+    //        Car car3 = new Car { Make = "Tesla", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 1, NumberOfMiles=250000, NumberOfPreviousOwners =1};
+    //        Car car4 = new Car { Make = "toyota", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 0, NumberOfMiles=250000, NumberOfPreviousOwners =1};
+    //        Car car5 = new Car { Make = "Acura", PurchaseValue= 35000m, AgeInMonths = 3 * 12, NumberOfCollisions = 1, NumberOfMiles=250000, NumberOfPreviousOwners =0};
+    //        Car car6 = new Car { Make = null, PurchaseValue= 80000m, AgeInMonths=8, NumberOfCollisions = 1, NumberOfMiles = 10000, NumberOfPreviousOwners =0};
 
-            PriceDeterminator d = new PriceDeterminator();
-            Console.WriteLine(d.DetermineCarPrice(car1));
-            Console.WriteLine(d.DetermineCarPrice(car2));
-            Console.WriteLine(d.DetermineCarPrice(car3));
-            Console.WriteLine(d.DetermineCarPrice(car4));
-            Console.WriteLine(d.DetermineCarPrice(car5));
-            Console.WriteLine(d.DetermineCarPrice(car6));
-        }
-    }
+    //        PriceDeterminator d = new PriceDeterminator();
+    //        Console.WriteLine(d.DetermineCarPrice(car1));
+    //        Console.WriteLine(d.DetermineCarPrice(car2));
+    //        Console.WriteLine(d.DetermineCarPrice(car3));
+    //        Console.WriteLine(d.DetermineCarPrice(car4));
+    //        Console.WriteLine(d.DetermineCarPrice(car5));
+    //        Console.WriteLine(d.DetermineCarPrice(car6));
+    //    }
+    //}
 
     public class Car
     {
